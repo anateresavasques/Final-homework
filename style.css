@@ -1,41 +1,42 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #664923;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
-  margin: 100px 0;
+  margin: 100px 50px;
 }
 
 h1,
 h2,
 h3 {
-  margin: 0;
+  margin: 20;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 45px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
   opacity: 0.7;
 }
 
 p {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 2.5;
 }
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 30px;
   justify-content: center;
+  border-radius: 38px;
 }
 
 .navigation-links a {
@@ -43,32 +44,47 @@ p {
 }
 
 .primary-link {
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  transition: all 200ms ease-in-out;
+  font-size: 16px;
 }
 
 .primary-link:hover {
-  color: white;
+  background-color: white;
+  color: #664923;
 }
 
 .secondary-link {
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+
+.secondary-link:hover {
+  background-color: #664923;
+  color: white;
 }
 
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  transition: all 200ms ease-in-out;
+}
+
+.homepage-link:hover {
+  background-color: white;
+  color: #664923;
 }
 
 .about-paragraphs {
@@ -77,28 +93,31 @@ p {
 
 .about-paragraphs p {
   margin: 10px;
+  line-height: 1.5;
 }
 
 .email-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+  color: #664923;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 570px) {
   h1 {
-    font-size: 48px;
+    font-size: 35px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 25px;
     text-align: center;
   }
 
