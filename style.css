@@ -110,6 +110,10 @@ p {
   color: #664923;
 }
 
+.text-center {
+  text-align: center;
+}
+
 @media (max-width: 570px) {
   h1 {
     font-size: 35px;
