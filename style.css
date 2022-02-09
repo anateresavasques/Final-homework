@@ -122,6 +122,10 @@ p {
   text-align: center !important;
 }
 
+#avatar {
+  padding-top: 5px;
+}
+
 @media (max-width: 570px) {
   h1 {
     font-size: 35px;
