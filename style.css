@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #664923;
+  --primary-color: #a8a8a8;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -65,7 +65,7 @@ p {
 
 .primary-link:hover {
   background-color: white;
-  color: #664923;
+  color: var(--primary-color);
 }
 
 .secondary-link {
@@ -79,7 +79,7 @@ p {
 }
 
 .secondary-link:hover {
-  background-color: #664923;
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -92,7 +92,7 @@ p {
 
 .homepage-link:hover {
   background-color: white;
-  color: #664923;
+  color: var(--primary-color);
 }
 
 .about-paragraphs {
@@ -115,7 +115,7 @@ p {
 .email-link:hover {
   text-decoration: underline !important;
   font-weight: bold !important;
-  color: #664923;
+  color: var(--primary-color);
 }
 
 .nav-link {
@@ -124,6 +124,26 @@ p {
 
 #avatar {
   margin-top: 50px;
+}
+
+#stefets-picture {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+#stefets-picture:hover {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#stefets-picture2 {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#stefets-picture2:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 @media (max-width: 570px) {
