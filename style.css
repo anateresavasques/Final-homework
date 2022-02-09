@@ -142,6 +142,16 @@ p {
     text-align: center;
   }
 
+  .primary-link {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .secondary-link {
+    text-align: center;
+    font-size: 13px;
+  }
+
   .project-link {
     display: block;
     text-align: center;
