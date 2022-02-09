@@ -152,6 +152,10 @@ p {
     font-size: 13px;
   }
 
+  .email-link {
+    font-size: 16px;
+  }
+
   .project-link {
     display: block;
     text-align: center;
