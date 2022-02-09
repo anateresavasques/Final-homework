@@ -20,16 +20,17 @@ h3 {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 47px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 19px;
   opacity: 0.7;
+  line-height: 1.5;
 }
 
 p {
