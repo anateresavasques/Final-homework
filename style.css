@@ -9,7 +9,7 @@
 }
 
 body {
-  margin: 40px 50px;
+  margin: 100px 50px;
   font-family: "Short Stack", cursive;
 }
 
@@ -26,6 +26,7 @@ h1 {
 
 h2 {
   font-size: 32px;
+  margin-top: 50px;
 }
 
 h3 {
