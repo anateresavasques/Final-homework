@@ -148,6 +148,46 @@ p {
   -webkit-filter: grayscale(0);
 }
 
+.contactLinks {
+  margin-top: 50px;
+  margin-bottom: -5px;
+  text-align: center;
+  padding: 50px;
+  font-size: 22px;
+  letter-spacing: 25px;
+}
+
+#gitHub {
+  color: gray !important;
+  transition: all 200ms ease-in-out;
+}
+
+#linkeDin {
+  color: gray !important;
+  transition: all 200ms ease-in-out;
+}
+
+#Eletronic {
+  color: gray !important;
+  transition: all 200ms ease-in-out;
+}
+
+#gitHub:hover {
+  color: black !important;
+}
+
+#linkeDin:hover {
+  color: black !important;
+}
+
+#Eletronic:hover {
+  color: black !important;
+}
+
+#openSource {
+  text-align: center !important;
+}
+
 @media (max-width: 570px) {
   h1 {
     font-size: 35px;
